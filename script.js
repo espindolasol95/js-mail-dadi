@@ -12,8 +12,10 @@ for (let i =0; i <listEmail.length; i++){
    if (UserEmail === listEmail [i])
    accessAllowed = true;
 
-breack; 
-
-      
+breack;      
 }   
- 
+ if ( accessAllowed ) {
+   console.log ("welcome to party")
+ } else {
+   console.log ("you are not on the list")
+ }
