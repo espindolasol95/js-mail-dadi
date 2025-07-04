@@ -10,12 +10,12 @@ const accessAllowed = false
 
 for (let i =0; i <listEmail.length; i++){
    if (UserEmail === listEmail [i])
-   accessAllowed = true;
-
-breack;      
+   accessAllowed = true;                                      
+ break;
+      
 }   
  if ( accessAllowed ) {
-   console.log ("welcome to party")
- } else {
    console.log ("you are not on the list")
+ } else {
+   console.log ("welcome to the party")
  }
