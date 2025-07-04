@@ -1,5 +1,5 @@
 
 // list of party
-const listEmail = [gokuhotmail.com , vegetahotmail.com , crilinhotmail.com , gohanhotmail.com ]
+const listEmail = ["goku@hotmail.com , vegeta@hotmail.com , crilin@hotmail.com , gohan@hotmail.com" ]
 
 //
