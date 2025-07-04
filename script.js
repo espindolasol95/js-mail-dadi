@@ -19,3 +19,5 @@ for (let i =0; i <listEmail.length; i++){
  } else {
    console.log ("welcome to the party")
  }
+
+
