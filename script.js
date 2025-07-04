@@ -3,4 +3,17 @@
 const listEmail = ["goku@hotmail.com , vegeta@hotmail.com , crilin@hotmail.com , gohan@hotmail.com" ]
 
 //email request to user
-const UserEmail = prompt ("enter your email");
+const UserEmail = prompt ("enter your email");  
+
+//control variable (star booleano) 
+const accessAllowed = false
+
+for (let i =0; i <listEmail.length; i++){
+   if (UserEmail === listEmail [i])
+   accessAllowed = true;
+
+breack; 
+
+      
+}   
+ 
