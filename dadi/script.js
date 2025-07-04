@@ -19,4 +19,6 @@ if (player > computer) {
 
 } else if (player < computer){
     console.log ("you lost!");
+}else{
+    console.log("draw")
 }
