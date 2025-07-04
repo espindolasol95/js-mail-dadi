@@ -16,4 +16,7 @@ console.log ("computer" , computer);
 //comparison
 if (player > computer) {
     console.log ("you won!");
+
+} else if (player < computer){
+    console.log ("you lost!");
 }
