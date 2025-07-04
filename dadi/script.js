@@ -12,3 +12,8 @@ console.log ("player" , player);
 
 const computer= Math.floor (Math.random()*6) + 1;
 console.log ("computer" , computer);
+
+//comparison
+if (player > computer) {
+    console.log ("you won!");
+}
